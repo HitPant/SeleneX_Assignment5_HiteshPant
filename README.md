@@ -21,7 +21,7 @@ pip install -r requirements.txt
 ---
 
 ## Prepare Data
-```bash
+``` bash
 python make_test_split.py
 python build_manifest_mmOTU.py
 
