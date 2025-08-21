@@ -8,9 +8,6 @@ This project builds a **mini-prototype diagnostic pipeline** that combines:
 
 Dataset: MMOTU ovarian ultrasound dataset (8 classes, collapsed into benign/malignant).
 
----
-
----
 
 ## Setup
 ```bash
