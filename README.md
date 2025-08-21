@@ -10,21 +10,6 @@ Dataset: MMOTU ovarian ultrasound dataset (8 classes, collapsed into benign/mali
 
 ---
 
-## Project Structure
-SeleneX_Assignment5_Starter/
-│── data/ # Contains manifest.csv + manifests_with_names.csv
-│── splits/ # train/val/test txt splits
-│── artifacts/ # parquet splits, metrics.json
-│── assets/
-│ ├── gradcam/ # Grad-CAM outputs
-│ ├── shap/ # SHAP plots
-│ └── metrics/ # ROC and confusion matrix plots
-│── build_manifest_mmOTU.py # Script to build manifests
-│── make_test_split.py # Script to generate test split
-│── notebooks/
-│ ├── 01_data_preparation.ipynb # Preprocess data and build datasets
-│ └── 02_train_and_explain.ipynb# Train models + explainability
-
 ---
 
 ## Setup
