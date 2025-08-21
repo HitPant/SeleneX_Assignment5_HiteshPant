@@ -10,7 +10,7 @@ Dataset: MMOTU ovarian ultrasound dataset (8 classes, collapsed into benign/mali
 
 
 ## Setup
-```bash
+``` bash
 # Create environment
 conda create -n lunartech python=3.10 -y
 conda activate lunartech
