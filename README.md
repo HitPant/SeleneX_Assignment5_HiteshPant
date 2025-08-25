@@ -84,10 +84,10 @@ Artifacts are available for quick viewing:
   ![Grad-CAM Example](Assets_Outputs/assets/gradcam/gradcam_all_op.png)
 
 - **SHAP plots**  
-  [Assets_Outputs/assets/shap](https://github.com/HitPant/SeleneX_Assignment5_HiteshPant/tree/main/Assets_Outputs/assets/shap)
+  [Assets_Outputs/assets/shap](Assets_Outputs/assets/shap/SHAP_all.png)
 
 - **Metrics, ROC & Confusion Matrices**  
-  [Assets_Outputs/assets/metrics](https://github.com/HitPant/SeleneX_Assignment5_HiteshPant/tree/main/Assets_Outputs/assets/metrics)
+  [Assets_Outputs/assets/metrics](Assets_Outputs/assets/metrics/ROC_AUC.png)
 
 
 
