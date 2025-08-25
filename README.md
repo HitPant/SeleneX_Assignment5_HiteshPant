@@ -9,6 +9,7 @@ This project implements a mini-prototype diagnostic pipeline that integrates ult
 <b>Streamlit App</b> – Lightweight demo interface for real-time inference <br>
 
 ### Dataset: MMOTU ovarian ultrasound dataset (benign vs malignant), with synthetic biomarker features.
+![Dataset](Assets_Outputs/dataset.png)
 
 ## Repository Structure
 ```
