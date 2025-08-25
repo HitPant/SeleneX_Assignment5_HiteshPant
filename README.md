@@ -4,9 +4,9 @@ This project implements a mini-prototype diagnostic pipeline that integrates ult
 
 ## Key components:
 <b>Ultrasound Image Classifier</b> – CNN backbone + Grad-CAM explainability <br>
-Biomarker Tabular Model – Age, CA-125, BRCA status + SHAP explainability <br>
-Fusion Model – Combines both modalities for improved performance <br>
-Streamlit App – Lightweight demo interface for real-time inference <br>
+<b>Biomarker Tabular Model</b> – Age, CA-125, BRCA status + SHAP explainability <br>
+<b>Fusion Model</b> – Combines both modalities for improved performance <br>
+<b>Streamlit App</b> – Lightweight demo interface for real-time inference <br>
 
 ### Dataset: MMOTU ovarian ultrasound dataset (benign vs malignant), with synthetic biomarker features.
 
