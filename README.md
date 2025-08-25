@@ -95,6 +95,11 @@ Artifacts are available for quick viewing:
 streamlit run app/streamlit_app.py
 ```
 
+## Demo workflow:
+- Upload an ultrasound image (or pick one from image_data/)
+- Enter Age, CA‑125, BRCA (0/1)
+- See fused prediction, Grad‑CAM overlay, and SHAP explanation
+
 ## Outputs
 data/manifest.csv
 Grad-CAM heatmaps → assets/gradcam/
