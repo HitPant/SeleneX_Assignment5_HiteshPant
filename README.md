@@ -43,16 +43,19 @@ SeleneX_Assignment5_HiteshPant/
 
 ## Setup Instructions
 ### 1. Create environment
+```
 conda create -n lunartech python=3.10 -y
 conda activate lunartech
-
+```
 ### 2. Install dependencies
+```
 pip install -r requirements.txt
-
+```
 
 ## Dataset Preparation
+```
 Download OTU_2D images (~1,469)
-
+```
 
 ## Run Notebooks
 01_data_preparation.ipynb → builds parquet splits
