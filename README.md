@@ -102,8 +102,3 @@ streamlit run app/streamlit_app.py
 
 ![Demo](https://github.com/HitPant/SeleneX_Assignment5_HiteshPant/blob/main/Assets_Outputs/Demo1.png)
 
-## Outputs
-data/manifest.csv
-Grad-CAM heatmaps → assets/gradcam/
-SHAP plots → assets/shap/
-ROC/CM plots + metrics.json → assets/metrics/
