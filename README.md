@@ -90,6 +90,9 @@ Artifacts are available for quick viewing:
   ![ROC Curve](Assets_Outputs/assets/metrics/ROC_AUC.png)
 
 
+## Streamlit Demo
+streamlit run app/streamlit_app.py
+
 
 ## Outputs
 data/manifest.csv
