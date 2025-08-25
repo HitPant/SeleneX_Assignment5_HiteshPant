@@ -3,7 +3,7 @@
 This project implements a mini-prototype diagnostic pipeline that integrates ultrasound imaging with biomarker features to classify ovarian tumors as benign or malignant.
 
 ## Key components:
-<b>Ultrasound Image Classifier<\b> – CNN backbone + Grad-CAM explainability <br>
+<b>Ultrasound Image Classifier</b> – CNN backbone + Grad-CAM explainability <br>
 Biomarker Tabular Model – Age, CA-125, BRCA status + SHAP explainability <br>
 Fusion Model – Combines both modalities for improved performance <br>
 Streamlit App – Lightweight demo interface for real-time inference <br>
