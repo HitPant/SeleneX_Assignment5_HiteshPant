@@ -63,7 +63,7 @@ python build_manifest_mmOTU.py
 ```
 
 ## Running the Notebooks
-<b>01_data_preparation.ipynb<\b> <br>
+<b>01_data_preparation.ipynb</b> <br>
 - Loads images + generates synthetic tabular features (Age, CA‑125, BRCA)
 - Normalizes inputs & writes splits (uses data/splits/*.csv)
 - Saves data/manifest.csv, histograms, class balance
