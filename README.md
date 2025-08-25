@@ -76,6 +76,21 @@ python build_manifest_mmOTU.py
   - SHAP → Assets_Outputs/assets/shap/
   - ROC/CM → Assets_Outputs/assets/metrics/
 
+## Artifacts Preview
+
+Artifacts are available for quick viewing:
+
+- **Grad-CAM outputs**  
+  [Assets_Outputs/assets/gradcam](https://github.com/HitPant/SeleneX_Assignment5_HiteshPant/tree/main/Assets_Outputs/assets/gradcam)
+
+- **SHAP plots**  
+  [Assets_Outputs/assets/shap](https://github.com/HitPant/SeleneX_Assignment5_HiteshPant/tree/main/Assets_Outputs/assets/shap)
+
+- **Metrics, ROC & Confusion Matrices**  
+  [Assets_Outputs/assets/metrics](https://github.com/HitPant/SeleneX_Assignment5_HiteshPant/tree/main/Assets_Outputs/assets/metrics)
+
+
+
 ## Outputs
 data/manifest.csv
 Grad-CAM heatmaps → assets/gradcam/
