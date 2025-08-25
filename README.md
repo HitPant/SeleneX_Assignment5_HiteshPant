@@ -58,8 +58,8 @@ pip install -r requirements.txt
 
 ## Build manifest & splits (adjust paths as needed):
 ```
-python build_manifest_mmOTU.py
 python make_test_split.py 
+python build_manifest_mmOTU.py
 ```
 
 ## Run Notebooks
