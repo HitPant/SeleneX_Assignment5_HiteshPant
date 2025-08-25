@@ -63,7 +63,11 @@ python build_manifest_mmOTU.py
 ```
 
 ## Running the Notebooks
-01_data_preparation.ipynb → builds parquet splits
+01_data_preparation.ipynb <br>
+- Loads images + generates synthetic tabular features (Age, CA‑125, BRCA)
+- Normalizes inputs & writes splits (uses data/splits/*.csv)
+- Saves data/manifest.csv, histograms, class balance
+
 02_train_and_explain.ipynb → trains models + generates explainability plots
 
 
