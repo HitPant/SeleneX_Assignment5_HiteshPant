@@ -71,10 +71,10 @@ python build_manifest_mmOTU.py
 <b>02_train_and_explain.ipynb</b>
 - Trains image, tabular, and fused models
 - Evaluates on test set and writes metrics.json
-### Saves explainability artifacts:
-- Grad‑CAM → Assets_Outputs/assets/gradcam/
-- SHAP → Assets_Outputs/assets/shap/
-- ROC/CM → Assets_Outputs/assets/metrics/
+- Saves explainability artifacts:
+  - Grad‑CAM → Assets_Outputs/assets/gradcam/
+  - SHAP → Assets_Outputs/assets/shap/
+  - ROC/CM → Assets_Outputs/assets/metrics/
 
 ## Outputs
 data/manifest.csv
