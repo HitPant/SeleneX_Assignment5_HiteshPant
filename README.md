@@ -56,7 +56,12 @@ pip install -r requirements.txt
 1. Download OTU_2D images (~1,469)
 2. Place images into: data/OTU_2D/
 
-   
+## Build manifest & splits (adjust paths as needed):
+```
+python build_manifest_mmOTU.py
+python make_test_split.py 
+```
+
 ## Run Notebooks
 01_data_preparation.ipynb → builds parquet splits
 02_train_and_explain.ipynb → trains models + generates explainability plots
