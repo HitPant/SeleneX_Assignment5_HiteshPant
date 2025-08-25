@@ -53,9 +53,7 @@ pip install -r requirements.txt
 ```
 
 ## Dataset Preparation
-```
 Download OTU_2D images (~1,469)
-```
 
 ## Run Notebooks
 01_data_preparation.ipynb → builds parquet splits
