@@ -91,8 +91,9 @@ Artifacts are available for quick viewing:
 
 
 ## Streamlit Demo
+```
 streamlit run app/streamlit_app.py
-
+```
 
 ## Outputs
 data/manifest.csv
