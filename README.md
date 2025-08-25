@@ -100,6 +100,8 @@ streamlit run app/streamlit_app.py
 - Enter Age, CA‑125, BRCA (0/1)
 - See fused prediction, Grad‑CAM overlay, and SHAP explanation
 
+![Demo]https://github.com/HitPant/SeleneX_Assignment5_HiteshPant/blob/main/Assets_Outputs/Demo1.png
+
 ## Outputs
 data/manifest.csv
 Grad-CAM heatmaps → assets/gradcam/
