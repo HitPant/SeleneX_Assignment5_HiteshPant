@@ -1,29 +1,57 @@
 # SeleneX Assignment 5 – Ovarian Ultrasound + Biomarker Diagnostic Pipeline
 
-## Overview
-This project builds a **mini-prototype diagnostic pipeline** that combines:
-- **Ultrasound image classification** (via CNNs + Grad-CAM explainability)
-- **Biomarker-based prediction** (CA-125, BRCA, age features + SHAP explainability)
-- **Fusion model** (jointly leveraging both modalities)
+This project implements a mini-prototype diagnostic pipeline that integrates ultrasound imaging with biomarker features to classify ovarian tumors as benign or malignant.
 
-Dataset: MMOTU ovarian ultrasound dataset (8 classes, collapsed into benign/malignant).
+## Key components:
+Ultrasound Image Classifier – CNN backbone + Grad-CAM explainability
+Biomarker Tabular Model – Age, CA-125, BRCA status + SHAP explainability
+Fusion Model – Combines both modalities for improved performance
+Streamlit App – Lightweight demo interface for real-time inference
+
+### Dataset: MMOTU ovarian ultrasound dataset (benign vs malignant), with synthetic biomarker features.
+
+## Repository Structure
+SeleneX_Assignment5_HiteshPant/
+│
+├── notebooks/
+│   ├── 01_data_preparation.ipynb     # Data loading, preprocessing, synthetic biomarker generation
+│   ├── 02_train_and_explain.ipynb    # Training models + explainability (Grad-CAM, SHAP)
+│
+├── app/
+│   └── streamlit_app.py              # Streamlit demo interface
+│
+│
+├── image_data/                       # Sample images for quick testing
+│
+├── Assets_Outputs/
+│   └── assets/                       # Grad-CAM, SHAP, ROC/CM plots, metrics.json
+│   
+├── docs/                             # PDF documents
+│   ├── model_card.pdf
+│   ├── risk_bias_log.pdf
+│   ├── summary_annex.pdf
+│   ├── product_requirements_annex.pdf
+│   ├── data_plan_annex.pdf
+│
+├── requirements.txt
+├── README.md
+├── metrics.json
 
 
-## Setup
-``` bash
-# Create environment
+
+
+
+## Setup Instructions
+### 1. Create environment
 conda create -n lunartech python=3.10 -y
 conda activate lunartech
 
-# Install requirements
+### 2. Install dependencies
 pip install -r requirements.txt
 
----
 
-## Prepare Data
-``` bash
-python make_test_split.py
-python build_manifest_mmOTU.py
+## Dataset Preparation
+Download OTU_2D images (~1,469)
 
 
 ## Run Notebooks
