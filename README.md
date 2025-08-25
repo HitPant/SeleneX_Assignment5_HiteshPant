@@ -62,7 +62,7 @@ python make_test_split.py
 python build_manifest_mmOTU.py
 ```
 
-## Run Notebooks
+## Running the Notebooks
 01_data_preparation.ipynb → builds parquet splits
 02_train_and_explain.ipynb → trains models + generates explainability plots
 
