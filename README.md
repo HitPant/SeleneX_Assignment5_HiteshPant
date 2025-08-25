@@ -68,7 +68,7 @@ python build_manifest_mmOTU.py
 - Normalizes inputs & writes splits (uses data/splits/*.csv)
 - Saves data/manifest.csv, histograms, class balance
 
-02_train_and_explain.ipynb → trains models + generates explainability plots
+<b>02_train_and_explain.ipynb</b>
 
 
 ## Outputs
