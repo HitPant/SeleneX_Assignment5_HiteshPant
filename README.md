@@ -15,31 +15,29 @@ Streamlit App – Lightweight demo interface for real-time inference
 SeleneX_Assignment5_HiteshPant/
 │
 ├── notebooks/
-│   ├── 01_data_preparation.ipynb     # Data loading, preprocessing, synthetic biomarker generation
-│   ├── 02_train_and_explain.ipynb    # Training models + explainability (Grad-CAM, SHAP)
+│ ├── 01_data_preparation.ipynb            # Data loading, preprocessing, synthetic biomarker generation
+│ └── 02_train_and_explain.ipynb           # Training models + explainability (Grad-CAM, SHAP)
 │
 ├── app/
-│   └── streamlit_app.py              # Streamlit demo interface
+│ └── streamlit_app.py                     # Streamlit demo interface
 │
-│
-├── image_data/                       # Sample images for quick testing
+├── image_data/                            # Sample images for quick testing
 │
 ├── Assets_Outputs/
-│   └── assets/                       # Grad-CAM, SHAP, ROC/CM plots, metrics.json
-│   
-├── docs/                             # PDF documents
-│   ├── model_card.pdf
-│   ├── risk_bias_log.pdf
-│   ├── summary_annex.pdf
-│   ├── product_requirements_annex.pdf
-│   ├── data_plan_annex.pdf
+│ └── assets/                              # Grad-CAM, SHAP, ROC/CM plots, metrics.json
 │
+├── docs/
+│ ├── model_card.pdf
+│ ├── risk_bias_log.pdf
+│ ├── summary_annex.pdf
+│ ├── product_requirements_annex.pdf
+│ └── data_plan_annex.pdf
+│
+├── build_manifest_mmOTU.py
+├── make_test_split.py
 ├── requirements.txt
-├── README.md
 ├── metrics.json
-
-
-
+└── README.md
 
 
 ## Setup Instructions
