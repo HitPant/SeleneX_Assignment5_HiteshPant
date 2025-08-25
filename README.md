@@ -81,7 +81,7 @@ python build_manifest_mmOTU.py
 Artifacts are available for quick viewing:
 
 - **Grad-CAM outputs**  
-  ![Grad-CAM Example](Assets_Outputs/assets/gradcam/1378_gradcam.png)
+  ![Grad-CAM Example](Assets_Outputs/assets/gradcam/Screenshot 2025-08-25 142825.png)
 
 - **SHAP plots**  
   [Assets_Outputs/assets/shap](https://github.com/HitPant/SeleneX_Assignment5_HiteshPant/tree/main/Assets_Outputs/assets/shap)
