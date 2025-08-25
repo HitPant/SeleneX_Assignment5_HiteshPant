@@ -53,8 +53,10 @@ pip install -r requirements.txt
 ```
 
 ## Dataset Preparation
-Download OTU_2D images (~1,469)
+1. Download OTU_2D images (~1,469)
+2. Place images into: data/OTU_2D/
 
+   
 ## Run Notebooks
 01_data_preparation.ipynb → builds parquet splits
 02_train_and_explain.ipynb → trains models + generates explainability plots
